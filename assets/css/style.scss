@@ -7,16 +7,16 @@
   line-height: 1;
 }
 
-@media screen and (min-width: 64em) .page-header {
-  padding: 2rem 6rem;
+@media screen and (min-width: 64em) {
+  .page-header { padding: 2rem 6rem; }
 }
 
-@media screen and (max-width: 64em) and (min-width: 42em) .page-header {
-  padding: 2rem 4rem 1rem;
+@media screen and (max-width: 64em) and (min-width: 42em) {
+  .page-header { padding: 2rem 4rem 1rem; }
 }
 
-@media screen and (max-width: 42em) .page-header {
-  padding: 1rem 1rem 0.1rem;
+@media screen and (max-width: 42em) { 
+  .page-header { padding: 1rem 1rem 0.1rem; }
 }
 
 blockquote.problem {
