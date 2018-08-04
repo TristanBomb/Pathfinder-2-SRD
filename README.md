@@ -1,10 +1,8 @@
 ## Pathfinder 2 SRD
 
-The Pathfinder 2 SRD is an unofficial hypertext reference document for the second edition of the Pathfinder role-playing game, which is licensed under the Open Game License. Note that Pathfinder 2 is currently in the beta/playtesting phase, so many of the rules and features are likely to change. If you wish, you may contribute to this document via [this](https://github.com/TristanBomb/Pathfinder2-SRD/) GitHub repository.
+The Pathfinder 2 SRD is an unofficial hypertext reference document for the second edition of the Pathfinder role-playing game, which is licensed under the Open Game License. Note that Pathfinder 2 is currently in the beta/playtesting phase, so many of the rules and features are likely to change. If you wish, you may contribute to this document via [this](https://github.com/TristanBomb/Pathfinder2-SRD/) GitHub repository. Currently, we're working on copying the rulebook verbatim to the SRD, but we hope to offer additional information not available in the text, along with hyperlinking.
 
-You can use the [editor on GitHub](https://github.com/TristanBomb/Pathfinder2-SRD/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You can use the [editor on GitHub](https://github.com/TristanBomb/Pathfinder2-SRD/edit/master/README.md) to maintain and preview the content for your website in Markdown files. Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages on the site from the content in the Markdown files.
 
 ### About GitHub Pages
 
