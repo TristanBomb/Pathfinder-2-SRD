@@ -1,4 +1,4 @@
-<blockquote style="background-color: #f002;">
+<blockquote style="border-left-color: firebrick; color: firebrick;">
 This page is currently a verbatim copy of the relevant section of the rulebook. It needs to be refined!
 </blockquote>
 
