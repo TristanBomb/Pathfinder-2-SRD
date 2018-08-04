@@ -1,0 +1,49 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.page-header {
+  line-height: 1;
+}
+
+@media screen and (min-width: 64em)
+.page-header {
+  padding: 2rem 6rem;
+}
+
+@media screen and (max-width: 64em) and (min-width: 42em)
+.page-header {
+  padding: 2rem 4rem 1rem;
+}
+
+@media screen and (max-width: 42em)
+.page-header {
+  padding: 1rem 1rem 0.1rem;
+}
+
+blockquote.problem {
+  border-left-color: #aa0000;
+  color: #aa0000;
+}
+
+blockquote.warning {
+  border-left-color: #e49e00;
+  color: #e49e00;
+}
+
+blockquote.info {
+  border-left-color: #0086b3;
+  color: #0086b3;
+}
+
+blockquote.note {
+  border-left-color: #159957;
+  color: #159957;
+}
+
+blockquote.editing {
+  border-left-color: #800080;
+  color: #800080;
+}
+
