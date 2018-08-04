@@ -1,0 +1,8 @@
+toc2:
+  - title: SRD
+    subfolderitems:
+      - page: Classes
+        url: Classes.html
+        subsubfolderitems:
+         - page: Alchemist
+           url: Alchemist.html
