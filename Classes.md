@@ -1,4 +1,4 @@
-<blockquote style="border-left-color: firebrick; color: firebrick;">
+<blockquote class="problem">
 This page is currently a verbatim copy of the relevant section of the rulebook. It needs to be refined!
 </blockquote>
 
