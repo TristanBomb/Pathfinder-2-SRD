@@ -5,10 +5,10 @@ tags: srd verbatim
 
 # Classes
 > Just as your character’s ancestry plays a key role in expressing her identity and worldview, her
-> class indicates the training she has developed and will improve upon as an adventurer. Groups
-> of players often wish to create characters whose skills and abilities synergize mechanically,
-> and in this respect, choosing your character’s class is perhaps the most important decision
-> you will make for her.
+class indicates the training she has developed and will improve upon as an adventurer. Groups
+of players often wish to create characters whose skills and abilities synergize mechanically,
+and in this respect, choosing your character’s class is perhaps the most important decision
+you will make for her.
 
 * [Alchemist](Classes/Alchemist)
 * [Barbarian](Classes/Barbarian)
