@@ -52,7 +52,7 @@ blockquote.editing {
     border-bottom-left-radius: 2rem;
     position: sticky;
     width: calc((100% - 58rem)/2);
-    height: calc(100vh - 10.5rem);
+    height: calc(100vh - 10.5rem - 2px);
     min-width: 16rem;
     max-width: 24rem;
     top: 5.25rem;
