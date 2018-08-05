@@ -1,5 +1,5 @@
 theme: jekyll-theme-cayman
 title: Pathfinder 2 SRD
-baseurl: /Pathfinder-2-SRD
+baseurl: Pathfinder-2-SRD
 github:
   is_project_page: true

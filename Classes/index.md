@@ -1,3 +1,8 @@
+---
+title: Classes
+tags: srd verbatim
+---
+
 <blockquote class="problem">
 This page is currently a verbatim copy of the relevant section of the rulebook. It needs to be refined!
 </blockquote>
@@ -9,18 +14,18 @@ This page is currently a verbatim copy of the relevant section of the rulebook. 
 > and in this respect, choosing your character’s class is perhaps the most important decision
 > you will make for her.
 
-* [Alchemist](/Classes/Alchemist)
-* [Barbarian](/Classes/Barbarian)
-* [Bard](/Classes/Bard)
-* [Cleric](/Classes/Cleric)
-* [Druid](/Classes/Druid)
-* [Fighter](/Classes/Fighter)
-* [Monk](/Classes/Monk)
-* [Paladin](/Classes/Paladin)
-* [Ranger](/Classes/Ranger)
-* [Rogue](/Classes/Rogue)
-* [Sorcerer](/Classes/Sorcerer)
-* [Wizard](/Classes/Wizard)
+* [Alchemist](Classes/Alchemist)
+* [Barbarian](Classes/Barbarian)
+* [Bard](Classes/Bard)
+* [Cleric](Classes/Cleric)
+* [Druid](Classes/Druid)
+* [Fighter](Classes/Fighter)
+* [Monk](Classes/Monk)
+* [Paladin](Classes/Paladin)
+* [Ranger](Classes/Ranger)
+* [Rogue](Classes/Rogue)
+* [Sorcerer](Classes/Sorcerer)
+* [Wizard](Classes/Wizard)
 
 Although there are a limited number of character
 classes from which you can choose, there are

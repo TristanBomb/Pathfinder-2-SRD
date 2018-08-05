@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    <base href="{{ site.url | append:site.baseurl | append:"/" }}">
     <meta charset="UTF-8">
 
 {% seo %}
@@ -8,7 +9,15 @@
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <base href="{{ site.url | append:site.baseurl }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#157878">
+    <meta name="apple-mobile-web-app-title" content="Pathfinder 2 SRD">
+    <meta name="application-name" content="Pathfinder 2 SRD">
+    <meta name="msapplication-TileColor" content="#00aba9">
+    <meta name="theme-color" content="#157878">
   </head>
   <body>
     <header class="page-header" role="banner">
