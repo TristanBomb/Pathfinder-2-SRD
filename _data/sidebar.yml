@@ -1,8 +1,15 @@
-toc2:
-  - title: SRD
-    subfolderitems:
-      - page: Classes
-        url: Classes.html
-        subsubfolderitems:
-         - page: Alchemist
-           url: Alchemist.html
+|
+  * [Home](/)
+  * [Classes](/Classes)
+    * [Alchemist](/Classes/Alchemist)
+    * [Barbarian](/Classes/Barbarian)
+    * [Bard](/Classes/Bard)
+    * [Cleric](/Classes/Cleric)
+    * [Druid](/Classes/Druid)
+    * [Fighter](/Classes/Fighter)
+    * [Monk](/Classes/Monk)
+    * [Paladin](/Classes/Paladin)
+    * [Ranger](/Classes/Ranger)
+    * [Rogue](/Classes/Rogue)
+    * [Sorcerer](/Classes/Sorcerer)
+    * [Wizard](/Classes/Wizard)

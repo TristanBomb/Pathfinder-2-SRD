@@ -7,20 +7,20 @@ This page is currently a verbatim copy of the relevant section of the rulebook. 
 > class indicates the training she has developed and will improve upon as an adventurer. Groups
 > of players often wish to create characters whose skills and abilities synergize mechanically,
 > and in this respect, choosing your character’s class is perhaps the most important decision
-> you will make for her. 
+> you will make for her.
 
-* [Alchemist](Classes/Alchemist)
-* [Barbarian](Classes/Barbarian)
-* [Bard](Classes/Bard)
-* [Cleric](Classes/Cleric)
-* [Druid](Classes/Druid)
-* [Fighter](Classes/Fighter)
-* [Monk](Classes/Monk)
-* [Paladin](Classes/Paladin)
-* [Ranger](Classes/Ranger)
-* [Rogue](Classes/Rogue)
-* [Sorcerer](Classes/Sorcerer)
-* [Wizard](Classes/Wizard)
+* [Alchemist](/Classes/Alchemist)
+* [Barbarian](/Classes/Barbarian)
+* [Bard](/Classes/Bard)
+* [Cleric](/Classes/Cleric)
+* [Druid](/Classes/Druid)
+* [Fighter](/Classes/Fighter)
+* [Monk](/Classes/Monk)
+* [Paladin](/Classes/Paladin)
+* [Ranger](/Classes/Ranger)
+* [Rogue](/Classes/Rogue)
+* [Sorcerer](/Classes/Sorcerer)
+* [Wizard](/Classes/Wizard)
 
 Although there are a limited number of character
 classes from which you can choose, there are
@@ -129,7 +129,7 @@ high Intelligence score, she’s trained in a higher number
 of skills.
 
 Spellcasting classes provide proficiency in spells, which
-is further detailed in each class’s entry. 
+is further detailed in each class’s entry.
 
 ### Signature Skills
 This entry lists the skills in which members of your
@@ -138,7 +138,7 @@ a good idea to allocate your character’s starting skill
 proficiencies to her signature skills, though doing so is not
 required. At higher levels, your character can increase her
 proficiency ranks in these skills to master or legendary.
-She typically cannot do so in nonsignature skills. 
+She typically cannot do so in nonsignature skills.
 
 ### Advancement Table
 This table summarizes the abilities, feats, skill increases,
