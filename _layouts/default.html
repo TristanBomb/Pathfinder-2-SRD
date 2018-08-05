@@ -23,19 +23,41 @@
     <header class="page-header" role="banner">
       <h1 class="project-name">{{ site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ site.description | default: site.github.project_tagline }}</h2>
-      <a href="Navigation" class="btn navbtn">Navigation</a>
       {% if site.show_downloads %}
         <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
         <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
       {% endif %}
     </header>
 
+    {% unless page.tags contains 'navigation' %}
+    <a href="Navigation" class="navigation" alt="Navigation"></a>
 
     <div class="sidebar-outer"><div class="sidebar-inner">
       {{ site.data.sidebar | markdownify }}
     </div></div>
+    {% endunless %}
 
     <main id="content" class="main-content" role="main">
+      {% if page.tags contains 'incomplete' %}
+      <blockquote class="problem">
+      This page is incomplete!
+      </blockquote>
+      {% endif %}
+
+      {% if page.tags contains 'verbatim' %}
+      <blockquote class="problem">
+      This page is a verbatim copy of the rulebook - it needs to be refined!
+      </blockquote>
+      {% endif %}
+
+      {% if page.tags contains 'homebrew' %}
+      <blockquote class="warning">
+      This page contains homebrew content!
+      GMs, be careful when running it.
+      Players, get GM approval before using it, and be gracious if they decline.
+      </blockquote>
+      {% endif %}
+
       {{ content }}
 
       <footer class="site-footer">

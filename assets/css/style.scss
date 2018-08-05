@@ -44,6 +44,10 @@ blockquote.editing {
   color: #800080;
 }
 
+del>a { color: #aa0000; }
+ins>a { color: #159957; }
+ins>a:hover { text-decoration-style: double; }
+
 @media screen and (min-width: 90rem) {
   div.sidebar-outer {
     background-color: white;
@@ -69,8 +73,40 @@ blockquote.editing {
   }
 }
 
-@media screen and (max-width: 90rem) {
+@media screen and (max-width: 90em) {
   div.sidebar-outer {
     display: none;
   }
+  .navigation {
+    transition: bottom 0.5s, box-shadow 0.5s, opacity 0.5s;
+    display: block;
+    background-image: url("../img/compass.svg");
+    background-color: #157878;
+    background-size: 4.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 3rem;
+    width: 6rem;
+    height: 6rem;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    opacity: 0.6;
+    box-shadow: 0.2rem 0.2rem 1rem black;
+  }
+  .navigation:hover {
+    bottom: 1.5rem;
+    opacity: 1;
+    box-shadow: 0.2rem 0.4rem 1.4rem black;
+  }
+}
+
+:not(div):target {
+  background: #0991;
+  outline: 0.5rem #0991 solid;
+}
+
+div:target {
+  outline: 0.5rem #0993 solid;
+  outline-offset: 0.5rem;
 }

@@ -3,10 +3,6 @@ title: Classes
 tags: srd verbatim
 ---
 
-<blockquote class="problem">
-This page is currently a verbatim copy of the relevant section of the rulebook. It needs to be refined!
-</blockquote>
-
 # Classes
 > Just as your character’s ancestry plays a key role in expressing her identity and worldview, her
 > class indicates the training she has developed and will improve upon as an adventurer. Groups
@@ -198,7 +194,7 @@ If your character is at least 7th level, she can use this
 skill increase to become a master of a signature skill of
 which she’s already an expert. If she’s at least 15th level,
 she can use this increase to become legendary in a
-signature skill of which she’s already a master.
+signature skill of which she’s already a master.</div>
 
 #### Ability Boosts
 At 5th level and every 5 levels thereafter, your character
