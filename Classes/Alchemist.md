@@ -67,5 +67,12 @@ Alchemists pursue scientific innovation above all else, combining incredible pow
 *  Assume that if you haven't caused a catastrophe with your experimentations, you inevitably will.
 *  Think that you're some kind of sorcerer or an eccentric wizard and don't understand that you're not a spellcaster.  Real spellcasters clumsily dabbling in alchemy only heighten this misconception.
 
-# Class Features
+## Class Features
 You gain these abilities as an alchemist.  Abilities gained at higher levels list the requisite levels next to the features' names.
+
+### Advanced Alchemy
+You gain the Alchemical Crafting feat (see page 162), even if you don't meet that feat's prerequisites, and you gain the four additional common 1st-level alchemical formulas that feat grants.  The list of alchemical items begins on page 360. You can use this feat to create common alchemical items as long as you have their formulas in your formula book, though their power is fleeting.  You can create these items in two different ways, as described below.  An alchemical item you create this way has the infused trait.
+
+First, during your daily preparations (described on page 332), you can create items sfor which you have the formulas.  Creating items this way requires spending 1 Resonance Pint to create a batch of alchemical items of that type with the infused trait.  You select how many items are in the batch, up to half the normal maximum baatch size (half a typical batch is two items, but see the Crafting Trained Activities section on page for more information) ***Note, the original rulebook has a misprint, leaving out the page number here***.  You don't need to attempt a Crafting check to do this, and you ignoer the number of days typically required to create the items and any requirements of alchemical reagents.  You can't overspend Resonance Points to create infused items in this way during your daily preparations.
+
+Second, you can create alchemical items with the Quick Alchemy action, described below.
