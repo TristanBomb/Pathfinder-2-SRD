@@ -53,7 +53,7 @@ Players of alchemist characters might approach gameplay in the following ways:
 *  In exploration mode, you keep an eye out for truoble with your bombs at the ready while giving advice on all things alchemical and mysterious.
 *  In downtime mode, you spend time in an alchemicallab brewing elixers, making bombs, and furthering your alchemical knowledge.
 
-##Roleplaying an Alchemist
+## Roleplaying an Alchemist
 Alchemists pursue scientific innovation above all else, combining incredible powers from the natural world through the force of their keen intellect and insatiable curiosity.
 
 **If you're an alchemist, you'll likely...**
