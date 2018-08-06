@@ -7,9 +7,10 @@ The Pathfinder 2 SRD is an unofficial hypertext reference document for the secon
 There's a lot to unpack in the rulebook, so help would be very much appreciated! Here's how:
 
 1. Fork the project
-2. Modify and create Markdown files (see below) as you see fit - you can either do this within GitHub, or through `git` and a text editor on your computer
-3. Once you're done, submit a pull request to this repository
-4. If your changes are approved, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the site, and your changes will be visible
+2. Turn on GitHub Pages in the repository settings (on the master branch)
+3. Modify and create Markdown files (see below) as you see fit - you can either do this within GitHub, or through `git` and a text editor on your computer
+4. Once you're done, submit a pull request to this repository
+5. If your changes are approved, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the site, and your changes will be visible
 
 If you notice a problem or have some feedback, but not the time or knowledge to correct it, you can also submit an issue [here](https://github.com/TristanBomb/Pathfinder-2-SRD/issues).
 
