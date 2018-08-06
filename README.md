@@ -12,7 +12,7 @@ There's a lot to unpack in the rulebook, so help would be very much appreciated!
 4. Once you're done, submit a pull request to this repository
 5. If your changes are approved, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the site, and your changes will be visible
 
-If you notice a problem or have some feedback, but not the time or knowledge to correct it, you can also submit an issue [here](https://github.com/TristanBomb/Pathfinder-2-SRD/issues).
+If you notice a problem or have some feedback, but not the time or knowledge to correct it, you can also submit an issue [here](https://github.com/TristanBomb/Pathfinder-2-SRD/issues). We also have a [Discord channel](https://discord.gg/rr5Q5EQ) that I recommend joining!
 
 ### About GitHub Pages
 
