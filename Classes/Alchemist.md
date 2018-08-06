@@ -150,8 +150,11 @@ You place your bombs in easy-to-reach pouches and learn how to draw them almost 
 
 #### Smoke Bomb  (Feat, 1) - 1 action cost
 **Additive**
+
 **Frequency:** Once per round
+
 **Trigger:** You craft an alchemical bomb using the Quick Alchemy action.
+
 You cause the bomb to create a cloud of thick smoke in addition to its normal effects.  When thrown, it creates a cloud of smoke in a 10-foot-radius burst.  You can choose which corner of the target's space (or the space in which the bomb lands) the cloud is centered on.  All creatures within that area are concealed (see page 302).  The smoke lasts for 1 minute or until dissipated with a strong wind.
 
 ### 4th Level
@@ -169,9 +172,13 @@ You gain poison resistance equal to half of your level, and a +1 conditional bon
 
 ### 6th Level
 #### Debilitating Bomb  (Feat, 6)
+
 **Additive**
+
 **Frequency:** Once per round
-**Trigger:** You craft an alchemical item that has teh elixir trait using the Quick Alchemy action.
+
+**Trigger:** You craft an alchemical item that has the elixir trait using the Quick Alchemy action.
+
 You mix a substance into the bomb that can cause one of the following conditions:  dazzled, deafened, flat-footed, or hampered 5.  If the attack with that bomb hits, the target must succeed at a Fortitude saving throw or gain that condition until the start of your next turn.  Use your class DC for this saving throw (even if someone else throws the bomb).
 
 #### Delayed Bomb  (Feat, 6)
@@ -191,8 +198,11 @@ When throwing an alchemical bomb with the splash trait, the splash damage does n
 ### 8th Level
 #### Combine Elixirs  (Feat, 8)  - 1 action
 **Additive**
+
 **Frequency:** Once per round
+
 **Trigger:** You craft an alchemical item that has the elixir trait using the Quick Alchemy action.
+
 You've discovered how to mix two elixirs into a single concotion for quicker consumption.  You can spend 3 Resonance Points instead of 1 Resonance Point to add a second elixir to the one you're crafting.  When this combination elixir is consumed, both the constituent elixirs take effect.  For example, you can combine two of the same elixirs to a combined elixir of life that heals double the amount.  If a creature other than you drinks a combined elixir, it must spend 2 Resonance Points to gain the effects instead of only 1 Resonance Point.
 
 #### Feral Mutagen  (Feat, 8)
@@ -210,14 +220,17 @@ Deception and Thievery become signature skills for you.  When you Disable Device
 ### 10th Level
 #### Expanded Splash  (Feat, 10)
 **Prerequisite:** Calculated Splash
+
 When you throw an alchemical bomb with the splash trait that you have created, the splash damage is increased to 2 plus your Intelligence modifier, and it damages every creature within 10 feet of the target.
 
 #### Greater Debilitating Bomb  (Feat, 10)
 **Prerequisite:** Debilitating Bomb
+
 When you use the Debilitating Bomb free action, add the following conditions to the list you can choose from:  enfeebled 1, hampered 10, sluggish 1, or stupefied 1.
 
 #### Potent Poisoner  (Feat, 10)
 **Prerequisite:** Powerful Alchemy
+
 When you craft an alchemical item with the poison trait using any means, the DC is increased by 2, to a maximum of your class DC.
 
 #### Revivifying Mutagen  (Feat, 10)
@@ -228,6 +241,9 @@ Stealth becomes a signature skill for you.  When you are under the effects of a 
 
 #### Sticky Bomb  (Feat, 10)  - 1 action
 **Additive**
+
 **Frequency:** Once per Round
+
 **Trigger:** You craft an alchemical elixir using the Quick Alchemy action.
+
 You mix in an additive to make the bomb's contents adhere to the target and continue to do damage.  A creature that takes a direct hit from one of your sticky bombs also takes persistent damage equal to and of the same type as the bomb's splash damage.
