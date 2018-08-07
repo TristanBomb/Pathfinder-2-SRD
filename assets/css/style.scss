@@ -139,14 +139,15 @@ span.feature-level {
   padding: 0.5rem;
   height: 2rem;
   min-width: 2rem;
-  background-color: #606c71;
+  background-color: #159957;
   border-radius: 1rem;
   display: inline-flex;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-.feature>hr,p {
+
+.feature>hr,.feature>p {
   margin-top: 2px !important;
   margin-bottom: 2px !important;
   margin-left: 0 !important;

@@ -11,23 +11,23 @@ combat-prof:
   - "[Alchemical Bombs](Rules/Proficiencies#weapons) ([Trained](Rules/Proficiency#levels))"
   - "[Light Armor](Rules/Proficiencies#armor) ([Trained](Rules/Proficiency#levels))"
 signature-skills:
-  - "[Arcana](Skill-List#arcana)"
-  - "[Crafting](Skill-List#crafting)"
-  - "[Medicine](Skill-List#medicine)"
+  - "[Arcana](Skills/Arcana)"
+  - "[Crafting](Skills/Crafting)"
+  - "[Medicine](Skills/Medicine)"
 
-features:
-  - title: Quick Alchemy
-    traits: Alchemist
-    action: 1
-    cost: 1 [Resonance Point](Rules/Resonance-Points)
-    requirements: You must have [alchemist's tools](Items/Gear#alchemists-tools), the [formula](Items#formulae) of the alchemical item you’re creating, and a free hand.
-    description: >
-      You create a single common alchemical item that is of your
-      level or lower without having to spend the normal monetary cost
-      in alchemical reagents or needing to attempt a Crafting check.
-      This item has the infused trait, but it remains potent only until
-      the start of your next turn. After this period, the item becomes
-      inert and grants no effects. If you overspend Resonance Points
-      to use this ability and fail the flat check (see page 292), you
-      can’t use the Quick Alchemy action again until the next time you
-      undertake your daily preparations.
+quick-alchemy:
+  title: Quick Alchemy
+  traits: Action, Alchemist
+  action: 1
+  cost: 1 [Resonance Point](Rules/Resonance-Points)
+  requirements: You must have [alchemist's tools](Items/Gear#alchemists-tools), the [formula](Items#formulae) of the alchemical item you’re creating, and a free hand.
+  description: >
+    You create a single common alchemical item that is of your
+    level or lower without having to spend the normal monetary cost
+    in alchemical reagents or needing to attempt a Crafting check.
+    This item has the infused trait, but it remains potent only until
+    the start of your next turn. After this period, the item becomes
+    inert and grants no effects. If you overspend Resonance Points
+    to use this ability and fail the [flat check](Rules/Resonance-Points#overspending), you
+    can’t use the Quick Alchemy action again until the next time you
+    undertake your daily preparations.

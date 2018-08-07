@@ -1,0 +1,7 @@
+- title: Alchemical Familiar
+  traits: Feat, Alchemist
+  level: 1
+  description: >
+    You have created life via alchemy, though only a simple creature formed
+    from alchemical materials and a bit of your own blood. This alchemical familiar assists
+    you in your laboratory and adventuring, like any other [familiar](Rules/Familiars).
