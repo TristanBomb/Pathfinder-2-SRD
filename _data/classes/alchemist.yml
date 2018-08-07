@@ -1,0 +1,33 @@
+key: "[INT](Rules/Ability-Score#intelligence)"
+hp: "8 + [CON](Rules/Ability-Score#constitution) mod"
+skills: "2 + [INT](Rules/Ability-Score#intelligence) mod"
+special-prof:
+  - "[Perception](Rules/Proficiencies#perception) ([Trained](Rules/Proficiency#levels))"
+  - "[Fortitude](Rules/Proficiencies#fortitude) ([Expert](Rules/Proficiency#levels))"
+  - "[Reflex](Rules/Proficiencies#reflex) ([Expert](Rules/Proficiency#levels))"
+  - "[Will](Rules/Proficiencies#will) ([Trained](Rules/Proficiency#levels))"
+combat-prof:
+  - "[Simple Weapons](Rules/Proficiencies#weapons) ([Trained](Rules/Proficiency#levels))"
+  - "[Alchemical Bombs](Rules/Proficiencies#weapons) ([Trained](Rules/Proficiency#levels))"
+  - "[Light Armor](Rules/Proficiencies#armor) ([Trained](Rules/Proficiency#levels))"
+signature-skills:
+  - "[Arcana](Skill-List#arcana)"
+  - "[Crafting](Skill-List#crafting)"
+  - "[Medicine](Skill-List#medicine)"
+
+features:
+  - title: Quick Alchemy
+    traits: Alchemist
+    action: 1
+    cost: 1 [Resonance Point](Rules/Resonance-Points)
+    requirements: You must have [alchemist's tools](Items/Gear#alchemists-tools), the [formula](Items#formulae) of the alchemical item you’re creating, and a free hand.
+    description: >
+      You create a single common alchemical item that is of your
+      level or lower without having to spend the normal monetary cost
+      in alchemical reagents or needing to attempt a Crafting check.
+      This item has the infused trait, but it remains potent only until
+      the start of your next turn. After this period, the item becomes
+      inert and grants no effects. If you overspend Resonance Points
+      to use this ability and fail the flat check (see page 292), you
+      can’t use the Quick Alchemy action again until the next time you
+      undertake your daily preparations.

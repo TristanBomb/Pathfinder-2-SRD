@@ -1,0 +1,58 @@
+{% case include.data.rarity %}
+  {% when "uncommon" %}
+    {% assign color = "#159957" %}
+  {% when "rare" %}
+    {% assign color = "#0086b3" %}
+  {% when "unique" %}
+    {% assign color = "#800080" %}
+  {% else %}
+    {% assign color = "#606c71" %}
+{% endcase %}
+
+<div class="feature" id="{{ include.data.title | slugify }}">
+  <div class="feature-top-bar">
+    {% unless include.data.action == null %}
+      <img class="feature-action" src="assets/img/action-{{ include.data.action }}.svg">
+    {% endunless %}
+    <span class="feature-title">{{ include.data.title }}</span>
+    {% unless (include.data.level == null) and (include.data.rarity == null) %}
+      <span class="feature-level" style="background-color: {{ color }};">{{ include.data.level }}</span>
+    {% endunless %}
+  </div>
+  <hr>
+  <em>{{ include.data.traits | join: ", " }}</em>
+  {% unless include.data.prereq == null %}
+    <br>
+    <strong>Prerequisites:</strong> {{ include.data.prereq | markdownify | remove: '<p>' | remove: '</p>' }}
+  {% endunless %}
+  {% unless include.data.cost == null %}
+    <br>
+    <strong>Cost:</strong> {{ include.data.cost | markdownify | remove: '<p>' | remove: '</p>' }}
+  {% endunless %}
+  {% unless include.data.requirements == null %}
+    <br>
+    <strong>Requirements:</strong> {{ include.data.requirements | markdownify | remove: '<p>' | remove: '</p>' }}
+  {% endunless %}
+  {% unless include.data.frequency == null %}
+    <br>
+    <strong>Frequency:</strong> {{ include.data.frequency | markdownify | remove: '<p>' | remove: '</p>' }}
+  {% endunless %}
+  {% unless include.data.trigger == null %}
+    <br>
+    <strong>Trigger:</strong> {{ include.data.trigger | markdownify | remove: '<p>' | remove: '</p>' }}
+  {% endunless %}
+  <hr>
+  {{ include.data.description | markdownify }}
+  {% for el in include.data.special %}
+    <strong>Special:</strong> {{ el | markdownify | remove: '<p>' | remove: '</p>' }}
+    <br>
+  {% endfor %}
+  {% unless include.data.enhancement == null %}
+    <strong>Enhancement:</strong> {{ include.data.enhancement | markdownify | remove: '<p>' | remove: '</p>'  }}
+    <br>
+  {% endunless %}
+  {% unless include.data.failure == null %}
+    <strong>Failure:</strong> {{ include.data.failure | markdownify | remove: '<p>' | remove: '</p>'  }}
+    <br>
+  {% endunless %}
+</div>

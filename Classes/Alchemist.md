@@ -12,53 +12,22 @@ the go with inventive concoctions tweaked for any eventuality. With your
 fearlessness in the face of risk, your unique path toward greatness is lined
 with alchemical brews that push your mind and body to their limits.
 
-<table> <tr>
-  <th>Key Ability</th>
-  <td>Intelligence</td>
-</tr> <tr>
-  <th>Hit Points</th>
-  <td>8 + CON Mod</td>
-</tr> <tr>
-  <th>Skills</th>
-  <td>2 + INT Mod</td>
-</tr> <tr>
-  <th>Special Proficiencies</th>
-  <td><ul>
-    <li>Perception (Trained)</li>
-    <li>Fortitude (Expert)</li>
-    <li>Reflex (Expert)</li>
-    <li>Will (Trained)</li>
-  </ul></td>
-</tr> <tr>
-  <th>Combat Proficiencies</th>
-  <td><ul>
-    <li>Simple Weapons (Trained)</li>
-    <li>Alchemical Bombs (Trained)</li>
-    <li>Light Armor (Trained)</li>
-  </ul></td>
-</tr> <tr>
-  <th>Signature Skills</th>
-  <td><ul>
-    <li>Arcana</li>
-    <li>Crafting</li>
-    <li>Medicine</li>
-  </ul></td>
-</tr> </table>
-
+{% assign class=site.data.classes.alchemist  %}
+{% include class-table.html data=class %}
 
 ## Playing an Alchemist
 Players of alchemist characters might approach gameplay in the following ways:
 *  During combat, you lob bombs at your foes and harry your enemies while supporting the rest of your party with your potent elixirs.  At higher levels, you toughen your body using mutagens.
 *  During social encounters, you provide knowledge and experience about alchemicalitems and related secrets, like poisons and diseases.
-*  In exploration mode, you keep an eye out for truoble with your bombs at the ready while giving advice on all things alchemical and mysterious.
-*  In downtime mode, you spend time in an alchemicallab brewing elixers, making bombs, and furthering your alchemical knowledge.
+*  In exploration mode, you keep an eye out for trouble with your bombs at the ready while giving advice on all things alchemical and mysterious.
+*  In downtime mode, you spend time in an alchemical lab brewing elixers, making bombs, and furthering your alchemical knowledge.
 
 ## Roleplaying an Alchemist
 Alchemists pursue scientific innovation above all else, combining incredible powers from the natural world through the force of their keen intellect and insatiable curiosity.
 
 **If you're an alchemist, you'll likely...**
-*  Enjoy tinkering with strange forumlas and alchemical reagents, often with single-minded dedication and recklessness that give others pause.
-*  Get a kick out of wreaking havoc with the alchemical concoctons you've made, and enjoy watching things burn, dissolve, freeze, and jolt.
+*  Enjoy tinkering with strange formulas and alchemical reagents, often with single-minded dedication and recklessness that give others pause.
+*  Get a kick out of wreaking havoc with the alchemical concoctions you've made, and enjoy watching things burn, dissolve, freeze, and jolt.
 *  Endlessly experiment toward the discovery of new, more potent alchemical and magical tools.
 
 **Others probably...**
@@ -69,3 +38,7 @@ Alchemists pursue scientific innovation above all else, combining incredible pow
 
 # Class Features
 You gain these abilities as an alchemist.  Abilities gained at higher levels list the requisite levels next to the features' names.
+
+{% for el in class.features %}
+  {% include feature.html data=el %}
+{% endfor %}

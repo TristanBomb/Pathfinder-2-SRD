@@ -1,0 +1,31 @@
+<table> <tr>
+  <th>Key Ability</th>
+  <td>{{ include.data.key | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+</tr> <tr>
+  <th>Hit Points</th>
+  <td>{{ include.data.hp | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+</tr> <tr>
+  <th>Skills</th>
+  <td>{{ include.data.skills | markdownify | remove: '<p>' | remove: '</p>' }}</td>
+</tr> <tr>
+  <th>Special<br>Proficiencies</th>
+  <td><ul>
+    {% for el in include.data.special-prof %}
+      <li>{{ el | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+    {% endfor %}
+  </ul></td>
+</tr> <tr>
+  <th>Combat<br>Proficiencies</th>
+  <td><ul>
+    {% for el in include.data.combat-prof %}
+      <li>{{ el | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+    {% endfor %}
+  </ul></td>
+</tr> <tr>
+  <th>Signature<br>Skills</th>
+  <td><ul>
+    {% for el in include.data.signature-skills %}
+      <li>{{ el | markdownify | remove: '<p>' | remove: '</p>' }}</li>
+    {% endfor %}
+  </ul></td>
+</tr> </table>

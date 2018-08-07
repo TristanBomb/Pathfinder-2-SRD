@@ -7,6 +7,10 @@
   line-height: 1;
 }
 
+ul {
+  margin-bottom: 0;
+}
+
 @media screen and (min-width: 64em) {
   .page-header { padding: 2rem 6rem 1rem; }
 }
@@ -104,4 +108,47 @@ ins>a:hover { text-decoration-style: double; }
 div:target {
   outline: 0.5rem #0993 solid;
   outline-offset: 0.5rem;
+}
+
+div.feature {
+  margin: 1rem;
+}
+
+div.feature-top-bar {
+  display: flex;
+  align-items: center;
+}
+
+img.feature-action {
+  flex: 0;
+  height: 2rem;
+  margin-right: 0.2rem;
+}
+
+span.feature-title {
+  flex: 1;
+  margin: 0;
+  color: #159957;
+  font-size: 1.8rem;
+}
+
+span.feature-level {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+  padding: 0.5rem;
+  height: 2rem;
+  min-width: 2rem;
+  background-color: #606c71;
+  border-radius: 1rem;
+  display: inline-flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.feature>hr,p {
+  margin-top: 2px !important;
+  margin-bottom: 2px !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
